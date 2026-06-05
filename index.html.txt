@@ -1,10 +1,62 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <title>我的第一个网页</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>网页作业首页</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{
+            background:#f5f7fa;
+            font-family:微软雅黑;
+            padding:40px 20px;
+        }
+        .wrap{
+            max-width:800px;
+            margin:0 auto;
+            background:#fff;
+            padding:35px;
+            border-radius:10px;
+            box-shadow:0 2px 12px #ddd;
+        }
+        h1{
+            text-align:center;
+            color:#2255aa;
+            margin-bottom:30px;
+        }
+        h2{
+            color:#d63031;
+            margin:20px 0 15px;
+            font-size:20px;
+        }
+        ul{
+            background:#fff3f3;
+            padding:20px 30px;
+            border-radius:8px;
+            line-height:1.8;
+        }
+        li{margin:9px 0;}
+        .foot{
+            margin-top:35px;
+            text-align:center;
+            color:#777;
+            font-size:14px;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World!</h1>
-    <p>这是我的网页作业~</p >
+<div class="wrap">
+    <h1>免费空间部署网页作业</h1>
+    <h2>作业制作与上传注意事项</h2>
+    <ul>
+        <li>1.网页首页必须命名为index.html，是站点默认访问页面，文件名不能写错。</li>
+        <li>2.选用GitHub Pages免费静态空间部署，仅支持html、css静态文件，不能上传后端程序。</li>
+        <li>3.文件上传后开启Pages服务，需等待数分钟域名生效，无法立刻打开属于正常现象。</li>
+        <li>4.网页代码仅使用原生HTML+CSS，不引入复杂第三方插件，满足课程基础作业要求。</li>
+        <li>5.站点为课程作业专用，禁止商用，不存放违规、大容量资源文件。</li>
+        <li>6.部署完成后核对访问链接，链接打不开优先检查仓库名称、Pages分支配置是否正确。</li>
+    </ul>
+    <div class="foot">本页面用于课程作业展示</div>
+</div>
 </body>
 </html>
